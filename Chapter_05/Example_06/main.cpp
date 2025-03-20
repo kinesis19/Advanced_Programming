@@ -25,5 +25,6 @@ int main()
     }
     cout << "avg = " << sum / n << endl;
 
+    delete[] p;
     return 0;
 }
