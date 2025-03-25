@@ -42,6 +42,7 @@ int main()
     Circle mainDonut;
     Circle mainPizza(30);
     f();
+    Circle test(50);
 
     return 0;
 }
