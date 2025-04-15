@@ -4,4 +4,8 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
+        calculator.cpp \
         main.cpp
+
+HEADERS += \
+    calculator.h
