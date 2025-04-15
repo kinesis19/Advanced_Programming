@@ -12,10 +12,8 @@ int CalculateExpression(int num1, int num2, char operatorSign){
         return num1 + num2;
     case '-':
         return num1 - num2;
-        break;
     case '*':
         return num1 * num2;
-        break;
     case '/':
         if (num2 != 0) {
             return num1 / num2;
@@ -28,6 +26,7 @@ int CalculateExpression(int num1, int num2, char operatorSign){
             return num1 % num2;
         } else {
             cout << "Error: 0으로 나눌 수 없음." << endl;
+            return 0;
         }
     default:
         cout << "Error: 지원하지 않는 연산자임." << endl;
