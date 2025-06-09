@@ -495,4 +495,17 @@ Makefile.Release
 *.qmake.stash
 *.pro.user.*
 
+
+### Executable ###
+*.app
+*.bat
+*.cgi
+*.com
+*.exe
+*.gadget
+*.jar
+*.pif
+*.vb
+*.wsf
+
 # End of https://www.toptal.com/developers/gitignore/api/visualstudio,c++,cmake,qt,qtcreator
